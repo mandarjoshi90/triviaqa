@@ -15,3 +15,10 @@ def get_file_contents(filename, encoding='utf-8'):
 def read_json(filename, encoding='utf-8'):
     contents = get_file_contents(filename, encoding=encoding)
     return json.loads(contents)
+
+
+def get_file_contents_as_list(file_path, encoding='utf-8', ignore_blanks=True):
+    contents = get_file_contents(file_path, encoding=encoding)
+    lines = contents.split('\n')
+    lines = [line for line in lines if line != ''] if ignore_blanks else lines
+    return lines
