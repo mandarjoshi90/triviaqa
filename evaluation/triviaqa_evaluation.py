@@ -88,7 +88,7 @@ def get_oracle_score(ground_truth, predicted_answers, qid_list=None, mute=False)
                 print(message, file=sys.stderr)
             continue
         common += 1
-        prediction = predicted_answers[qid]
+        prediction = normalize_answer(predicted_answers[qid])
         ground_truths = get_ground_truths(ground_truth[qid])
         em_for_this_question = has_exact_match(ground_truths, prediction)
         exact_match += int(em_for_this_question)

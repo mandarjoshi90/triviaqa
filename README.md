@@ -1,4 +1,4 @@
-# Triviaqa
+# TriviaQA
 ## Evaluation
 ```
 python3 -m evaluation.triviaqa_evaluation --dataset_file samples/triviaqa_sample.json --prediction_file samples/sample_predictions.json
