@@ -3,7 +3,7 @@
 - The data can be downloaded from the [TriviaQA website][triviaqa-website].
 - Please contact [Mandar Joshi][mandar-home] (\<first-name\>90@cs.washington.edu) for suggestions and comments.
 
-## 1. Requirements
+## Requirements
 #### General
 Python 3 (You should be able to run the evaluation scripts using Python 2.7 if you take care of unicode issues (see [utils.py][utils-link]). BiDAF requires Python 3 -- check the original [repository][bidaf-orig-github] for more details.)
 
@@ -17,6 +17,9 @@ The ```dataset file``` parameter refers to files in the ```qa``` directory of th
 ```
 python3 -m evaluation.triviaqa_evaluation --dataset_file samples/triviaqa_sample.json --prediction_file samples/sample_predictions.json
 ```
+## Miscellaneous
+- If you have a SQuAD model and want to run on TriviaQA, please refer to ```utils.convert_to_squad_format.py```
+
 
 ## BiDAF evaluation
 ```
