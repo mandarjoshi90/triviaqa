@@ -5,7 +5,8 @@
 
 ## Requirements
 #### General
-Python 3 (You should be able to run the evaluation scripts using Python 2.7 if you take care of unicode issues (see [utils.py][utils-link]). BiDAF requires Python 3 -- check the original [repository][bidaf-orig-github] for more details.)
+- Python 3 (You should be able to run the evaluation scripts using Python 2.7 if you take care of unicode issues (see utils.utils.py).
+- BiDAF requires Python 3 -- check the original [repository][bidaf-orig-github] for more details.)
 
 #### Python Packages
 - tensorflow (deep learning library, verified on r0.11)
