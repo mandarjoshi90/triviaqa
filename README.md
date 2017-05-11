@@ -5,13 +5,13 @@
 
 ## Requirements
 #### General
-- Python 3 (You should be able to run the evaluation scripts using Python 2.7 if you take care of unicode issues (see utils.utils.py).
-- BiDAF requires Python 3 -- check the original [repository][bidaf-orig-github] for more details.)
+- Python 3. You should be able to run the evaluation scripts using Python 2.7 if you take care of unicode in ```utils.utils.py```.
+- BiDAF requires Python 3 -- check the [original repository][bidaf-orig-github] for more details.
 
 #### Python Packages
-- tensorflow (deep learning library, verified on r0.11)
-- nltk (NLP tools, verified on 3.2.1)
-- tqdm (progress bar, verified on 4.7.4)
+- tensorflow (only if you want to run BiDAF, verified on r0.11)
+- nltk
+- tqdm
 
 ## Evaluation
 The ```dataset file``` parameter refers to files in the ```qa``` directory of the data (e.g., ```wikipedia-dev.json```). For file format, check out the ```sample``` directory in the repo.
@@ -22,12 +22,13 @@ python3 -m evaluation.triviaqa_evaluation --dataset_file samples/triviaqa_sample
 - If you have a SQuAD model and want to run on TriviaQA, please refer to ```utils.convert_to_squad_format.py```
 
 
-## BiDAF evaluation
+## BiDAF
+#### Evaluation
 ```
 python3 -m evaluation.evaluate_bidaf --dataset_file <triviaqa-file> --bidaf_file <bidaf-prediction-file>
 ```
 
-## BiDAF code
+#### Code
 The original code is available at [here][bidaf-orig-github]. A slightly modified version to run on TriviaQA is coming soon!
 
 [bidaf-orig-github]: https://github.com/allenai/bi-att-flow/
