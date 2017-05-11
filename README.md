@@ -1,8 +1,9 @@
 # TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension
 - This repo contains code for the paper
-```
-Mandar Joshi, Eunsol Choi, Daniel Weld, Luke Zettlemoyer. [TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension][triviaqa-arxiv] In Association for Computational Linguistics (ACL) 2017, Vancouver, Canada.
-```
+Mandar Joshi, Eunsol Choi, Daniel Weld, Luke Zettlemoyer. 
+[TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension][triviaqa-arxiv] 
+In Association for Computational Linguistics (ACL) 2017, Vancouver, Canada.
+
 - The data can be downloaded from the [TriviaQA website][triviaqa-website].
 - Please contact [Mandar Joshi][mandar-home] (\<first-name\>90@cs.washington.edu) for suggestions and comments.
 
