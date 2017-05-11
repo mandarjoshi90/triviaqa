@@ -1,5 +1,7 @@
 # TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension
-This repo contains code for the paper [TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension][triviaqa-arxiv]. The data can be downloaded from the [TriviaQA website][triviaqa-website]. Please contact [Mandar Joshi][mandar-home] (<first-name>90@cs.washington.edu) for suggestions and comments.
+- This repo contains code for the paper [TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension][triviaqa-arxiv].
+- The data can be downloaded from the [TriviaQA website][triviaqa-website].
+- Please contact [Mandar Joshi][mandar-home] (\<first-name\>90@cs.washington.edu) for suggestions and comments.
 
 ## 1. Requirements
 #### General
