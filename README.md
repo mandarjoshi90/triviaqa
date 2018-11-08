@@ -1,6 +1,7 @@
 # TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension
 - This repo contains code for the paper
-Mandar Joshi, Eunsol Choi, Daniel Weld, Luke Zettlemoyer. 
+Mandar Joshi, Eunsol Choi, Daniel Weld, Luke Zettlemoyer.
+
 [TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension][triviaqa-arxiv] 
 In Association for Computational Linguistics (ACL) 2017, Vancouver, Canada.
 
@@ -26,14 +27,6 @@ python3 -m evaluation.triviaqa_evaluation --dataset_file samples/triviaqa_sample
 - If you have a SQuAD model and want to run on TriviaQA, please refer to ```utils.convert_to_squad_format.py```
 
 
-## BiDAF
-#### Evaluation
-```
-python3 -m evaluation.evaluate_bidaf --dataset_file <triviaqa-file> --bidaf_file <bidaf-prediction-file>
-```
-
-#### Code
-The original code is available at [here][bidaf-orig-github]. A slightly modified version to run on TriviaQA is coming soon!
 
 [bidaf-orig-github]: https://github.com/allenai/bi-att-flow/
 [triviaqa-arxiv]: https://arxiv.org/abs/1705.03551
