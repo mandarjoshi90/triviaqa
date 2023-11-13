@@ -5,7 +5,7 @@ Mandar Joshi, Eunsol Choi, Daniel Weld, Luke Zettlemoyer.
 [TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension][triviaqa-arxiv] 
 In Association for Computational Linguistics (ACL) 2017, Vancouver, Canada.
 
-- The data can be downloaded from the [TriviaQA website][triviaqa-website].
+- The data can be downloaded from the [TriviaQA website][triviaqa-website]. The Apache 2.0 License applies to both the code and the data.
 - Please contact [Mandar Joshi][mandar-home] (\<first-name\>90@cs.washington.edu) for suggestions and comments.
 
 ## Requirements
